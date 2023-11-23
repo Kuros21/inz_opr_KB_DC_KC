@@ -1,0 +1,24 @@
+1.Nie powtarzaj sie
+-nie zastosowaliśmy, diagramy aktywności na których bazowany był kod a następnie diagram klas były tworzone bez jakiejkolwiek konsultacji
+
+2.Prosty kod
+-zastosowaliśmy, uważamy że nie ma sensu pisać bardzo skomplikowanych kodów, których później nikt nie jest w stanie odczytać
+
+3.Minimalizuj powiązania
+-nie zastosowaliśmy, jedna z naszych klas korzysta z 3 innych
+
+4.ADP
+-zastosowaliśmy, u nas występuje sytuacja, że pakiet A korzysta z pakietu B, natomiast pakiet B nie korzysta z pakietu A
+
+5.SDP
+-zastosowaliśmy, żaden zmienny pakiet nie korzysta z innego pakietu
+
+6.SAP
+-zastosowaliśmy, wydaje nam się, że łatwe pakiety są dosyć konkretne, a trudne maksymalnie zwięzłe
+
+Solid:
+1.Single responsibility
+-nie zastosowaliśmy, nie każda klasa odpowiedzialna jest tylko i wyłącznie za jedną konkretną rzecz
+
+2.Open/closed
+-zastosowaliśmy,
